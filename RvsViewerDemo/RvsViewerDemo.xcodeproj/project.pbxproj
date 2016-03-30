@@ -16,6 +16,7 @@
 		213778B21CAB776B00534991 /* YJLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778B11CAB776B00534991 /* YJLoginView.m */; };
 		213778BB1CAB7D4D00534991 /* UILabel+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778BA1CAB7D4D00534991 /* UILabel+YJ.m */; };
 		213778BE1CAB7D9900534991 /* YJLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778BD1CAB7D9900534991 /* YJLoginModel.m */; };
+		213778C11CAB8F3800534991 /* UIButton+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778C01CAB8F3800534991 /* UIButton+YJ.m */; };
 		F272DDD6F603FB116457CDBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D4FF1FD14F5E18C6B4B96A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		213778BA1CAB7D4D00534991 /* UILabel+YJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YJ.m"; sourceTree = "<group>"; };
 		213778BC1CAB7D9900534991 /* YJLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoginModel.h; sourceTree = "<group>"; };
 		213778BD1CAB7D9900534991 /* YJLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoginModel.m; sourceTree = "<group>"; };
+		213778BF1CAB8F3800534991 /* UIButton+YJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YJ.h"; sourceTree = "<group>"; };
+		213778C01CAB8F3800534991 /* UIButton+YJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YJ.m"; sourceTree = "<group>"; };
 		31D4FF1FD14F5E18C6B4B96A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E295E4E4EADED3275ED53F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D16E0A62B38FDD2FE857FA7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 			children = (
 				213778B91CAB7D4D00534991 /* UILabel+YJ.h */,
 				213778BA1CAB7D4D00534991 /* UILabel+YJ.m */,
+				213778BF1CAB8F3800534991 /* UIButton+YJ.h */,
+				213778C01CAB8F3800534991 /* UIButton+YJ.m */,
 			);
 			path = Catergry;
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 				213778BB1CAB7D4D00534991 /* UILabel+YJ.m in Sources */,
 				213778BE1CAB7D9900534991 /* YJLoginModel.m in Sources */,
 				213778831CAB6F7B00534991 /* main.m in Sources */,
+				213778C11CAB8F3800534991 /* UIButton+YJ.m in Sources */,
 				213778AC1CAB74D200534991 /* YJLoginVC.m in Sources */,
 				213778B21CAB776B00534991 /* YJLoginView.m in Sources */,
 			);

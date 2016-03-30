@@ -18,6 +18,7 @@
 #import "YJConfig.h"
 #import "YJGlobal.h"
 #import "UILabel+YJ.h"
+#import "UIButton+YJ.h"
 
 
 /// pod库

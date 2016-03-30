@@ -10,4 +10,9 @@
 
 @interface UILabel (YJ)
 
+/// 全局通用样式的label
++ (UILabel *)unifiedLabel;
+
++ (UILabel *)labelWithFontSize:(CGFloat)fontSize fontColor:(UIColor *)color;
+
 @end

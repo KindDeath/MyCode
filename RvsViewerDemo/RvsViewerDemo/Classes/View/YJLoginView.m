@@ -29,7 +29,10 @@
         
         self.nameTextField = [[UITextField alloc] init];
         self.nameTextField.keyboardType = UIKeyboardTypeEmailAddress;
-        
+        self.nameTextField.layer.cornerRadius = kCornerRadius;
+        self.nameTextField.layer.borderWidth = kLayerBorderWidth;
+        self.nameTextField.layer.borderColor = kLayerBorderColor;
+        [self addSubview:self.nameTextField];
     }
     return self;
 }

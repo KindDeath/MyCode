@@ -10,4 +10,22 @@
 
 @implementation UILabel (YJ)
 
++ (UILabel *)unifiedLabel
+{
+    UILabel *label = [[UILabel alloc] init];
+    label.font = kGlobalFont;
+    label.textColor = kBlackFontColor;
+    
+    return label;
+}
+
++ (UILabel *)labelWithFontSize:(CGFloat)fontSize fontColor:(UIColor *)color
+{
+    UILabel *label = [[UILabel alloc] init];
+    label.font = mFont(fontSize);
+    label.textColor = color;
+    
+    return label;
+}
+
 @end

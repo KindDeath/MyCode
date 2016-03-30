@@ -9,10 +9,14 @@
 #ifndef YJGlobal_h
 #define YJGlobal_h
 
-static CGFloat const globalFontSize = 15;
+static CGFloat const kGlobalFontSize = 15.0;
+static CGFloat const kCornerRadius = 4.0;
+static CGFloat const kBaseLineHeight = 0.6;
+static CGFloat const kLayerBorderWidth = 1.0;
+
 
 /// 系统统一全局字体
-#define kGlobalFont mFont(globalFontSize)
+#define kGlobalFont mFont(kGlobalFontSize)
 
 
 /// 系统统一颜色
@@ -21,6 +25,10 @@ static CGFloat const globalFontSize = 15;
 
 #define kBaseLineColor mRGB(200, 200, 200)
 #define kBaseViewBGColor mRGB(249, 249, 249)
+
+#define kLayerBorderColor mHexColor(0x565656).CGColor;
+
+#define kAppGreenColor mHexColor(0x43c16e)
 
 
 #endif /* YJGlobal_h */

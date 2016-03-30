@@ -17,7 +17,7 @@
 #define mUserDefaults       [NSUserDefaults standardUserDefaults]
 #define mNotificationCenter [NSNotificationCenter defaultCenter]
 #define mFont(size)         [UIFont systemFontOfSize:size]
-#define mB_Font(size)       [UIFont boldSystemFontOfSize:size]
+#define mBFont(size)       [UIFont boldSystemFontOfSize:size]
 //以tag读取View
 #define mViewByTag(parentView, tag, Class)  (Class *)[parentView viewWithTag:tag]
 //读取Xib文件的类

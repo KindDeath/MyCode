@@ -7,8 +7,11 @@
 //
 
 #import "YJLoginVC.h"
+#import "YJLoginView.h"
 
 @interface YJLoginVC ()
+
+@property (nonatomic, strong) YJLoginView *loginView;
 
 @end
 
@@ -18,7 +21,10 @@
     [super viewDidLoad];
     
     self.title = @"登录";
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.loginView = [[YJLoginView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.loginView];
 }
 
 

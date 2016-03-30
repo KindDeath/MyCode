@@ -11,8 +11,13 @@
 
 #ifdef __OBJC__
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 /// 私有公共类
 #import "YJConfig.h"
+#import "YJGlobal.h"
+#import "UILabel+YJ.h"
 
 
 /// pod库

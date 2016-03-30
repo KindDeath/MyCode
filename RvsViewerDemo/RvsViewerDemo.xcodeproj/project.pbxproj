@@ -13,6 +13,9 @@
 		213778911CAB6F7B00534991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2137788F1CAB6F7B00534991 /* LaunchScreen.storyboard */; };
 		2137789C1CAB6F7B00534991 /* RvsViewerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2137789B1CAB6F7B00534991 /* RvsViewerDemoTests.m */; };
 		213778AC1CAB74D200534991 /* YJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778AB1CAB74D200534991 /* YJLoginVC.m */; };
+		213778B21CAB776B00534991 /* YJLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778B11CAB776B00534991 /* YJLoginView.m */; };
+		213778BB1CAB7D4D00534991 /* UILabel+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778BA1CAB7D4D00534991 /* UILabel+YJ.m */; };
+		213778BE1CAB7D9900534991 /* YJLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213778BD1CAB7D9900534991 /* YJLoginModel.m */; };
 		F272DDD6F603FB116457CDBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D4FF1FD14F5E18C6B4B96A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,13 @@
 		213778AB1CAB74D200534991 /* YJLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoginVC.m; sourceTree = "<group>"; };
 		213778AE1CAB74FA00534991 /* YJConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJConfig.h; sourceTree = "<group>"; };
 		213778AF1CAB75AD00534991 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		213778B01CAB776B00534991 /* YJLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoginView.h; sourceTree = "<group>"; };
+		213778B11CAB776B00534991 /* YJLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoginView.m; sourceTree = "<group>"; };
+		213778B41CAB789500534991 /* YJGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJGlobal.h; sourceTree = "<group>"; };
+		213778B91CAB7D4D00534991 /* UILabel+YJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YJ.h"; sourceTree = "<group>"; };
+		213778BA1CAB7D4D00534991 /* UILabel+YJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YJ.m"; sourceTree = "<group>"; };
+		213778BC1CAB7D9900534991 /* YJLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLoginModel.h; sourceTree = "<group>"; };
+		213778BD1CAB7D9900534991 /* YJLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLoginModel.m; sourceTree = "<group>"; };
 		31D4FF1FD14F5E18C6B4B96A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E295E4E4EADED3275ED53F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D16E0A62B38FDD2FE857FA7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +138,7 @@
 		213778A61CAB748B00534991 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				213778B81CAB7D4D00534991 /* Catergry */,
 				213778AD1CAB74DF00534991 /* Config */,
 				213778A71CAB748B00534991 /* Model */,
 				213778A81CAB748B00534991 /* View */,
@@ -139,6 +150,8 @@
 		213778A71CAB748B00534991 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				213778BC1CAB7D9900534991 /* YJLoginModel.h */,
+				213778BD1CAB7D9900534991 /* YJLoginModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +159,8 @@
 		213778A81CAB748B00534991 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				213778B01CAB776B00534991 /* YJLoginView.h */,
+				213778B11CAB776B00534991 /* YJLoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,8 +178,18 @@
 			isa = PBXGroup;
 			children = (
 				213778AE1CAB74FA00534991 /* YJConfig.h */,
+				213778B41CAB789500534991 /* YJGlobal.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		213778B81CAB7D4D00534991 /* Catergry */ = {
+			isa = PBXGroup;
+			children = (
+				213778B91CAB7D4D00534991 /* UILabel+YJ.h */,
+				213778BA1CAB7D4D00534991 /* UILabel+YJ.m */,
+			);
+			path = Catergry;
 			sourceTree = "<group>";
 		};
 		4CC4EFB89BDA0B8C2E52C3EB /* Pods */ = {
@@ -328,8 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				213778861CAB6F7B00534991 /* AppDelegate.m in Sources */,
+				213778BB1CAB7D4D00534991 /* UILabel+YJ.m in Sources */,
+				213778BE1CAB7D9900534991 /* YJLoginModel.m in Sources */,
 				213778831CAB6F7B00534991 /* main.m in Sources */,
 				213778AC1CAB74D200534991 /* YJLoginVC.m in Sources */,
+				213778B21CAB776B00534991 /* YJLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

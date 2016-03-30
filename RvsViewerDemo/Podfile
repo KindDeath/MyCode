@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'AFNetworking', '~> 2.6.3'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'MJExtension', '~> 3.0.10'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'Masonry', '~> 0.6.4'
+pod 'UIView+Positioning', '~> 1.1'
+pod 'BlocksKit', '2.2.5'

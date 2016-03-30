@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YJLoginVC.h
 //  RvsViewerDemo
 //
 //  Created by GYJ on 16/3/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YJLoginVC : UIViewController
 
 @end
-
